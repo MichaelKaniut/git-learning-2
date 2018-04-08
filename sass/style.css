@@ -5,6 +5,8 @@ body {
   margin: 0 auto;
   background: white; }
   body .container {
+    display: flex;
+    flex-flow: row wrap;
     max-width: 1200px;
     margin: 0 auto; }
     body .container .titles {

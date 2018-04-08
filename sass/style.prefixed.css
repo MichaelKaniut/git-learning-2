@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  background: white; }
+  body .container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    max-width: 1200px;
+    margin: 0 auto; }
+    body .container .titles {
+      max-width: 1000px;
+      background-color: #99b3ff; }
+      body .container .titles h1 {
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 5px; }
+      body .container .titles h3 {
+        text-align: left;
+        padding-left: 15px; }
+    body .container .main {
+      max-width: 700px;
+      background: #b3b3cc; }
+      body .container .main p {
+        text-align: justify;
+        color: white;
+        padding: 20px; }
+
+/*# sourceMappingURL=style.prefixed.css.map */
